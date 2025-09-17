@@ -8,6 +8,8 @@
 .embed > div {
   display: flex;
   justify-content: center;
+  min-height: 144px;
+  box-sizing: border-box;
 }
 
 .embed.embed-twitter .twitter-tweet-rendered {
@@ -63,4 +65,10 @@
 
 main .section:first-of-type .embed {
   margin: 0;
+}
+
+@media (width >= 900px) {
+  .embed > div {
+    min-height: 608px;
+  }
 }
