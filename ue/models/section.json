@@ -1,0 +1,71 @@
+{
+  "definitions": [
+    {
+      "title": "Section",
+      "id": "section",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div></div>"
+        }
+      },
+      "filter": "section",
+      "model": "section"
+    }
+  ],
+  "models": [
+    {
+      "id": "section",
+      "fields": [
+        {
+          "component": "multiselect",
+          "name": "style",
+          "label": "Style",
+          "options": [
+            {
+              "name": "Highlight",
+              "value": "highlight"
+            },
+            {
+              "name": "Quote",
+              "value": "quote"
+            },
+            {
+              "name": "Align Left",
+              "value": "align-left"
+            },
+            {
+              "name": "Align Center",
+              "value": "align-center"
+            },
+            {
+              "name": "Align Right",
+              "value": "align-right"
+            }           
+          ]
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "section",
+      "components": [
+        "accordion",
+        "cards",
+        "carousel",
+        "columns",
+        "embed",
+        "fragment",
+        "form",
+        "hero",
+        "image",
+        "quote",
+        "search",
+        "tabs",
+        "table",
+        "text",
+        "video"
+      ]
+    }
+  ]
+}
