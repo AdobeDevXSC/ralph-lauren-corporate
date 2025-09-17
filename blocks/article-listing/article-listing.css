@@ -1,0 +1,110 @@
+/* Articles Feed */
+.article-listing-wrapper {
+  max-width: 1160px !important;
+  margin: 0 auto;
+}
+
+.article-listing > .default-content-wrapper {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.article-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 3.125em 0;
+  flex-wrap: nowrap;
+}
+
+.article-item img {
+  width: 175px;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.article-content {
+  flex: 1;
+}
+
+.article-title {
+  font-family: LeJeuneDeck-Regular, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #000 !important;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.article-title:hover {
+  text-decoration: none;
+}
+
+.article-date {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.download-btn {
+  border: 1px solid #0c2340;
+  background: transparent;
+  color: #0c2340;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.download-btn:hover {
+  background: #0c2340;
+  color: #fff;
+}
+
+.article-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 0;
+}
+
+/* ---------------- */
+/* MOBILE STYLES    */
+/* ---------------- */
+@media (max-width: 768px) {
+  .article-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .article-item img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .download-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .article-content {
+    width: 100%;
+  }
+
+  .article-title {
+    font-size: 1.1rem;
+  }
+}
