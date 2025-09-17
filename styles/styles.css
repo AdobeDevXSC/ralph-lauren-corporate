@@ -39,7 +39,7 @@
 
   /* nav heights */
 
-  /* --nav-height: 64px; */
+  --nav-height: 100px;
   --breadcrumbs-height: 34px;
   --header-height: var(--nav-height);
 }
@@ -90,6 +90,12 @@ body.appear {
 
 header {
   height: var(--header-height);
+}
+
+@media (width <= 900px) {
+  header {
+    height: 60px;
+  }
 }
 
 header .header,
