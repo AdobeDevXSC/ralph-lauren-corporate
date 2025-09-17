@@ -21,8 +21,8 @@
   --primary-color: #031e3a;
 
   /* fonts */
-  --body-font-family: "Founders Grotesk text Regular", roboto, roboto-fallback, sans-serif;
-  --heading-font-family: "LeJeuneDeck-Regular", roboto, roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: 'Founders Grotesk text Regular', roboto, roboto-fallback, sans-serif;
+  --heading-font-family: 'LeJeuneDeck-Regular', 'BodoniModa';
 
   /* body sizes */
   --body-font-size-m: 22px;
