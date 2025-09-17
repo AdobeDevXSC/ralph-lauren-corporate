@@ -1,4 +1,4 @@
 mountpoints:
   /:
-    url: https://content.da.live/AdobeDevXSC/ralph-lauren/
+    url: https://content.da.live/AdobeDevXSC/ralph-lauren-corporate/
     type: markup
