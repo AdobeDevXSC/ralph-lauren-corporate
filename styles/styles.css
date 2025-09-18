@@ -22,7 +22,7 @@
 
   /* fonts */
   --body-font-family: 'Founders Grotesk text Regular', roboto, roboto-fallback, sans-serif;
-  --heading-font-family: 'LeJeuneDeck-Regular', LeJeuneDeck-fallback;
+  --heading-font-family: 'LeJeuneDeck-Regular', lejeunedeck-fallback;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -58,7 +58,7 @@
 }
 
 @font-face {
-  font-family: LeJeuneDeck-fallback;
+  font-family: lejeunedeck-fallback;
   src: local('Didot');
   font-weight: 300;
   font-style: normal;

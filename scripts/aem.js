@@ -402,7 +402,6 @@ function decorateButtons(element) {
   });
 }
 
-
 /**
  * Add <img> for icon, prefixed with codeBasePath and optional prefix.
  * @param {Element} [span] span element with icon classes
