@@ -22,7 +22,7 @@
 
   /* fonts */
   --body-font-family: 'Founders Grotesk text Regular', roboto, roboto-fallback, sans-serif;
-  --heading-font-family: 'LeJeuneDeck-Regular', 'Arapey';
+  --heading-font-family: 'LeJeuneDeck-Regular', LeJeuneDeck-fallback;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -55,6 +55,17 @@
   font-family: roboto-fallback;
   size-adjust: 99.529%;
   src: local('Arial');
+}
+
+@font-face {
+  font-family: LeJeuneDeck-fallback;
+  src: local("Bodoni MT");
+  font-weight: 300;
+  font-style: normal;
+  size-adjust: 100%;    /* Bodoni MT runs wider, so scale it down */
+  ascent-override: 93%;
+  descent-override: 19%;
+  line-gap-override: 0%;
 }
 
 @media (width >= 900px) {
