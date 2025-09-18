@@ -1,3 +1,9 @@
+main > .section:is(:first-of-type).embed-container {
+  min-height: 610px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+
 .embed {
   width: unset;
   text-align: center;
@@ -64,4 +70,10 @@
 
 main .section:first-of-type .embed {
   margin: 0;
+}
+
+@media (width <= 900px) {
+  main > .section:is(:first-of-type).embed-container {
+    min-height: 525px;
+  }
 }
