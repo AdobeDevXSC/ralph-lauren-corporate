@@ -59,10 +59,10 @@
 
 @font-face {
   font-family: LeJeuneDeck-fallback;
-  src: local("Bodoni MT");
+  src: local('Didot');
   font-weight: 300;
   font-style: normal;
-  size-adjust: 100%;    /* Bodoni MT runs wider, so scale it down */
+  size-adjust: 96.5%;    /* Bodoni MT runs wider, so scale it down */
   ascent-override: 93%;
   descent-override: 19%;
   line-gap-override: 0%;
