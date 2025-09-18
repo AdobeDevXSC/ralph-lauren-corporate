@@ -62,7 +62,7 @@
   src: local('Didot');
   font-weight: 300;
   font-style: normal;
-  size-adjust: 95%;
+  size-adjust: 92%;
   ascent-override: 94%;
   descent-override: 19%;
   line-gap-override: 0%;
@@ -82,18 +82,6 @@
     --heading-font-size-m: 22px;
     --heading-font-size-s: 20px;
     --heading-font-size-xs: 18px;
-  }
-
-
-  @font-face {
-    font-family: LeJeuneDeck-fallback;
-    src: local('Didot');
-    font-weight: 300;
-    font-style: normal;
-    size-adjust: 92%;
-    ascent-override: 94%;
-    descent-override: 19%;
-    line-gap-override: 0%;
   }
 }
 
